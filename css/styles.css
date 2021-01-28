@@ -1,0 +1,77 @@
+@font-face {
+	font-family: "Questrial"
+	src: url("fonts/Questrial-Regular.tff") format("tff") 
+	
+}
+
+body {
+	background-color: #dcdcdc;
+	background-image: url("background.jpg");
+	object-fit:cover;
+	background-repeat: no-repeat;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	border-radius: 15px;
+}
+
+li {	
+	float: left;	
+}
+
+li a {
+	display: block;
+	padding: 14px 16px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	}
+
+li a:hover {
+	background-color: #111;
+}	
+
+.column {
+	float: left;
+	width: 33.33%
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+@media screen and (min-width: 650px) and (max-width: 950px) {
+	.column {
+		width: 50%
+	}
+}
+@media screen and (min-width: 0px) and (max-width: 649px) {
+	.column {
+		width: 100%
+	}
+}
+h1 {
+	font-family: "Questrial";
+	text-align:center;
+	
+}
+
+p {
+	text-align:left;
+	width: 300px;
+	margin: auto;
+	margin-top: 100px;
+	background-color: white;
+}
+
+footer {
+	margin-top: 100px;
+	text-align: center;
+}
