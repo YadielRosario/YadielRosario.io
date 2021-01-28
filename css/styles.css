@@ -2,12 +2,13 @@ html {
 	scroll-behavior: smooth;
 }
 
-@font-face {
+
+/*@font-face {
 	font-family: "Questrial";
 	src: url("/fonts/Questrial-Regular.ttf") format("ttf");
 	
 }
-
+*/
 body {
 	background-color: rgb(30,38,52);
 	
@@ -60,7 +61,7 @@ li a:hover {
 	}
 }
 h1 {
-	font-family: "Questrial"; 
+	font-family: 'Architects Daughter', cursive;
 	text-align:center;
 	position: relative;
 	font-size: 15vw;
