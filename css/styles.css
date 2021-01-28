@@ -3,8 +3,8 @@ html {
 }
 
 @font-face {
-	font-family: "Questrial"
-	src: url("/fonts/Questrial-Regular.ttf") format("ttf") 
+	font-family: "Questrial";
+	src: url("/fonts/Questrial-Regular.ttf") format("ttf");
 	
 }
 
@@ -63,7 +63,7 @@ h1 {
 	font-family: "Questrial"; 
 	text-align:center;
 	position: relative;
-	font-size: 10rem;
+	font-size: 15vw;
 	color: white;
 	
 }
