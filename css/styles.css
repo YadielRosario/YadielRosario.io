@@ -1,14 +1,16 @@
+html {
+	scroll-behavior: smooth;
+}
+
 @font-face {
 	font-family: "Questrial"
-	src: url("/fonts/Questrial-Regular.tff") format("tff") 
+	src: url("/fonts/Questrial-Regular.ttf") format("ttf") 
 	
 }
 
 body {
-	background-color: rgb(48,43,45);
-	background-image: url("background.jpg");
-	background-size:cover;
-	background-repeat: no-repeat;
+	background-color: rgb(30,38,52);
+	
 }
 
 ul {
@@ -60,6 +62,9 @@ li a:hover {
 h1 {
 	font-family: "Questrial"; 
 	text-align:center;
+	position: relative;
+	font-size: 14rem;
+	color: white;
 	
 }
 
@@ -75,4 +80,28 @@ footer {
 	margin-top: 100px;
 	text-align: center;
 	color: white;
+}
+
+.hero {
+	
+	position:relative;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.hero::before{
+	content: "";
+	background-image: url("background.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	opacity: 0.5;
 }
