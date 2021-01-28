@@ -52,12 +52,12 @@ li a:hover {
 	clear: both;
 }
 
-@media screen and (min-width: 650px) and (max-width: 950px) {
+@media screen and (min-width: 700px) and (max-width: 1052px) {
 	.column {
 		width: 50%
 	}
 }
-@media screen and (min-width: 0px) and (max-width: 649px) {
+@media screen and (min-width: 0px) and (max-width: 699px) {
 	.column {
 		width: 100%
 	}
