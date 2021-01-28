@@ -24,7 +24,8 @@ ul {
 }
 
 li {	
-	float: left;	
+	float: left;
+	
 }
 
 li a {
@@ -33,6 +34,7 @@ li a {
 	color: white;
 	text-align: center;
 	text-decoration: none;
+		
 	}
 
 li a:hover {
@@ -70,6 +72,13 @@ h1 {
 	
 }
 
+h2 {
+	font-family: 'Lato', sans-serif;
+	color: white;
+	text-align: center;
+	position: relative;
+	font-size: 1wv;
+}
 p {
 	text-align:left;
 	width: 300px;
@@ -77,10 +86,12 @@ p {
 	margin-top: 100px;
 	background-color: white;
 	font-family: 'Lato', sans-serif;
+	border-radius: 15px;
+	padding: 15px;
 }
 
 footer {
-	margin-top: 100px;
+	margin-top: 300px;
 	text-align: center;
 	color: white;
 }
