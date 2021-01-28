@@ -3,14 +3,9 @@ html {
 }
 
 
-/*@font-face {
-	font-family: "Questrial";
-	src: url("/fonts/Questrial-Regular.ttf") format("ttf");
-	
-}
-*/
 body {
-	background-color: rgb(30,38,52);
+	background-image: linear-gradient(to bottom right, rgb(61, 70, 93),rgb(30,38,52))
+	/*background-color: rgb(30,38,52);*/
 	
 }
 
