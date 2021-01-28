@@ -7,7 +7,7 @@
 body {
 	background-color: #dcdcdc;
 	background-image: url("background.jpg");
-	object-fit:cover;
+	background-size:cover;
 	background-repeat: no-repeat;
 }
 
@@ -74,4 +74,5 @@ p {
 footer {
 	margin-top: 100px;
 	text-align: center;
+	color: white;
 }
