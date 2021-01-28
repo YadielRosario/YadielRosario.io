@@ -8,13 +8,17 @@
 	<style> @import url('https://fonts.googleapis.com/css2?family=Lato&family=Racing+Sans+One&display=swap');</style>
 </head>
 <body>
-	<ul>
-		<li><a href="../index.html">Home</a></li>
-		<li><a href="/about.html">About Me</a></li>
-		<li><a href="/resume.html">Resume</a></li>
-		<li><a href="/portfolio.html">Portfolio</a></li>
-	</ul>
-	<br>
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="../index.html">Home</a>
+		<a href="/about.html">About Me</a>
+		<a href="/resume.html">Resume</a>
+		<a href="/portfolio.html">Portfolio</a>
+    </div>
+    <div id="main">
+    <div class="sticky">
+        <button id="openButton bigButton" onclick="openNav()">&#9776; Menu</button>
+    </div>
 	<div class="hero"> 
 		
 		<h1>Resume</h1> 
@@ -37,6 +41,7 @@
 
 	<footer>
 	Copyright &copy; 2021 Yadiel Rosario
-	</footer>
+    </footer>
+</div> 
 </body>
 </html>
